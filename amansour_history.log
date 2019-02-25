@@ -1,0 +1,40 @@
+    1  git
+    2  git init
+    3  ll
+    4  cd .git/
+    5  ll
+    6  date
+    7  cal
+    8  nano kuard-rs.yaml
+    9  git add kuard-rs.yaml 
+   10  ll
+   11  git add .
+   12  pwd
+   13  mv kuard-rs.yaml /root/
+   14  ll
+   15  cd ..
+   16  ll
+   17  git add kuard-rs.yaml 
+   18  git commit -m "init commit for k8s files"
+   19  git config --global user.name "amansour"
+   20  git commit -m "init commit for k8s files"
+   21  git config --global user.email "amansour@gm.com"
+   22  git commit -m "init commit for k8s files"
+   23  git remote https://github.com/ahmansour/architech.git
+   24  git remote -h
+   25  git remote add https://github.com/ahmansour/architech.git
+   26  git remote add architech https://github.com/ahmansour/architech.git
+   27  git remote -v
+   28  git push origin master
+   29  git push architech master
+   30  git pull architech
+   31  git push architech master
+   32  git pull architech
+   33  git pull architech master
+   34  ll
+   35  date
+   36  ls --help
+   37  ll -t
+   38  git push architech master
+   39  history
+   40  history >> amansour_history.log
